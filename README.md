@@ -13,12 +13,12 @@ Time spent: **X** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.13
   - [ ] GIF Walkthrough:
-  <img src="https://imgur.com/a/9H3Gq1K" width="800">
+  [Imgur](https://i.imgur.com/7eWlxFU.gifv)
   - [ ] Steps to recreate: 
-                           1. Download fake mp3 file from https://sumofpwn.nl/advisory/SFY20160742/xss.mp3
-                           2. Give to admin of site
-                           3. Have Admin upload and post to a page on the site
-                           4. When clicked, any user will be sent to another website
+                      - 1. Download fake mp3 file from https://sumofpwn.nl/advisory/SFY20160742/xss.mp3
+                      - 2. Give to admin of site
+                      - 3. Have Admin upload and post to a page on the site
+                      - 4. When clicked, any user will be sent to another website
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/branches/4.2/src/wp-admin/includes/media.php)
 1. (Required) Vulnerability Name or ID
