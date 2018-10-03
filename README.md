@@ -24,15 +24,18 @@ Time spent: **6** hours spent in total
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/branches/4.2/src/wp-admin/includes/media.php)
     
-2. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+2. Unauthenticated Stored Cross-Site Scripting (XSS)
+  - [ ] Summary: A subscriber posts a malicious comment that causes XSS (in this case an alert)
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.1
   - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+  
+  <a href="https://i.imgur.com/o2aKBTf.gif"><img src="https://i.imgur.com/o2aKBTf.gif" title='Video Walkthrough' width='' alt='Video Walkthrough' /></a>
+  
+  - [ ] Steps to recreate: 1. Create a Subscriber account - 2. Comment malicous code - 3. Wait for Admin to authorize comment and view it
   - [ ] Affected source code:
-    - [Link 2](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 2](https://core.trac.wordpress.org/browser/branches/4.2/src/wp-admin/includes/comment.php)
 3. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
