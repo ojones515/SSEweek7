@@ -13,7 +13,9 @@ Time spent: **X** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.13
   - [ ] GIF Walkthrough:
+  
   <a href="https://i.imgur.com/7eWlxFU.gif"><img src="https://i.imgur.com/7eWlxFU.gif" title='Video Walkthrough' width='' alt='Video Walkthrough' /></a>
+  
   - [ ] Steps to recreate: 
                       - 1. Download fake mp3 file from https://sumofpwn.nl/advisory/SFY20160742/xss.mp3
                       - 2. Give to admin of site
