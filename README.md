@@ -56,6 +56,7 @@ xss.mp3 (https://sumofpwn.nl/advisory/SFY20160742/xss.mp3)
 - [WordPress Source Browser](https://core.trac.wordpress.org/browser/)
 - [WordPress Developer Reference](https://developer.wordpress.org/reference/)
 - https://sumofpwn.nl/advisory/2016/wordpress_audio_playlist_functionality_is_affected_by_cross_site_scripting.html
+- https://klikki.fi/adv/wordpress2.html
 
 GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
