@@ -36,15 +36,18 @@ Time spent: **6** hours spent in total
   - [ ] Steps to recreate: 1. Create a Subscriber account - 2. Comment malicous code - 3. Wait for Admin to authorize comment and view it
   - [ ] Affected source code:
     - [Link 2](https://core.trac.wordpress.org/browser/branches/4.2/src/wp-admin/includes/comment.php)
-3. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+3. Authenticated Stored Cross-Site Scripting (XSS)
+  - [ ] Summary: Allows a user who can create posts to perform XSS
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.3
   - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+  
+  <a href="https://i.imgur.com/OBChIDn.gif"><img src="https://i.imgur.com/OBChIDn.gif" title='Video Walkthrough' width='' alt='Video Walkthrough' /></a>
+  
+  - [ ] Steps to recreate: 1. Have the admin give you an account where you can create posts - 2. Make a post that contains XSS - 3. Post and wait for other users to fall victim
   - [ ] Affected source code:
-    - [Link 3](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 3](https://core.trac.wordpress.org/browser/tags/4.2/src/wp-includes/post.php)
 
 
 ## Assets
@@ -57,6 +60,7 @@ xss.mp3 (https://sumofpwn.nl/advisory/SFY20160742/xss.mp3)
 - [WordPress Developer Reference](https://developer.wordpress.org/reference/)
 - https://sumofpwn.nl/advisory/2016/wordpress_audio_playlist_functionality_is_affected_by_cross_site_scripting.html
 - https://klikki.fi/adv/wordpress2.html
+- https://klikki.fi/adv/wordpress3.html
 
 GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
